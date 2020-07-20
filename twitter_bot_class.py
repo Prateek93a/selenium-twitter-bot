@@ -7,8 +7,44 @@ import time
 driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 
 class TwitterBot:
-    def __init__(self, username, password):
-        self.username = username
+
+    """
+    A Bot class that provide features of:
+        - Logging into your Twitter account
+        - Liking tweets of your homepage
+        - Searching for some keyword or hashtag
+        - Liking tweets of the search results
+        - Posting tweets
+        - Logging out of your account
+
+    ........
+
+    Attributes
+    ----------
+    email : str
+        user email for Twitter account
+    password : str
+        user password for Twitter account
+    bot : WebDriver
+        webdriver that carry out the automation tasks
+    is_logged_in : bool
+        boolean to check if the user is logged in or not
+
+    Methods
+    -------
+    login()
+        logs user in based on email and password provided during initialisation
+    logout()
+        logs user out
+    search(query: str)
+        searches for the provided query string
+    like_tweets(cycles: int)
+        loops over number of cycles provided, scrolls the page down and likes the available tweets on the page in each loop pass
+    """
+    
+
+    def __init__(self, email, password):
+        self.email = email
         self.password = password
         self.bot = driver
         self.is_logged_in = False
@@ -29,7 +65,7 @@ class TwitterBot:
         
         email.clear()
         password.clear()
-        email.send_keys(self.username)
+        email.send_keys(self.email)
         password.send_keys(self.password)
         password.send_keys(keys.Keys.RETURN)
         time.sleep(10)
@@ -70,7 +106,7 @@ class TwitterBot:
         self.is_logged_in = False
 
 
-    def search(self, query):
+    def search(self, query=''):
         if not self.is_logged_in:
             raise Exception("You must log in first!")
 
@@ -88,7 +124,7 @@ class TwitterBot:
         time.sleep(10)  
 
 
-    def likeTweets(self, cycles=10):
+    def like_tweets(self, cycles=10):
         if not self.is_logged_in:
             raise Exception("You must log in first!") 
 
@@ -108,7 +144,7 @@ class TwitterBot:
             time.sleep(5)
 
       
-    def postTweets(self,tweetBody):
+    def post_tweets(self,tweetBody):
         if not self.is_logged_in:
             raise Exception("You must log in first!")
 
