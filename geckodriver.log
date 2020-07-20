@@ -2082,3 +2082,13 @@ getMutations@resource://devtools/client/fronts/walker.js:409:10
 console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:1013:5)", "resource://devtools/shared/protocol/Front.js", 323))
 JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
 1595268883161	Marionette	INFO	Stopped listening on port 38567
+1595269546922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGJe5Qz"
+1595269551963	Marionette	INFO	Listening on port 46853
+1595269552043	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595269584612	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined

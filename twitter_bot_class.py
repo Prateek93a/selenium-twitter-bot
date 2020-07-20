@@ -98,8 +98,8 @@ class TwitterBot:
                 time.sleep(3)
                 bot.find_element_by_xpath("//div[@data-testid='like']").click()
 
-            bot.execute_script('window.scrollTo(0,document.body.scrollHeight/2)') 
-            time.sleep(3)
+            bot.execute_script('window.scrollTo(0,document.body.scrollHeight/1.5)') 
+            time.sleep(5)
 
       
     def postTweets(self,tweetBody):

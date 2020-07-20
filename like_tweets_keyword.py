@@ -9,4 +9,5 @@ if __name__ == "__main__":
         pj.likeTweets(10)
         pj.logout()
     except Exception as e:
+        pj.logout()
         print(e)

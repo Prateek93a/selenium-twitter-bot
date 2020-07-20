@@ -8,5 +8,6 @@ if __name__ == "__main__":
         pj.postTweets("My bot's first tweet!")
         pj.logout()
     except Exception as e:
+        pj.logout()
         print(e)
 
