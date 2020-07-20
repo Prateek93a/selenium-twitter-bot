@@ -63,9 +63,10 @@ class TwitterBot:
         try:
             bot.find_element_by_xpath("//div[@data-testid='confirmationSheetConfirm']").click()
         except common.exceptions.NoSuchElementException:
-            time.sleep(2)
+            time.sleep(3)
             bot.find_element_by_xpath("//div[@data-testid='confirmationSheetConfirm']").click()
 
+        time.sleep(3) 
         self.is_logged_in = False
 
 
@@ -128,5 +129,5 @@ class TwitterBot:
         time.sleep(4)
         bot.find_element_by_class_name("notranslate").send_keys(keys.Keys.ENTER)
         bot.find_element_by_xpath("//div[@data-testid='tweetButton']").click()
-        time.sleep(6) 
+        time.sleep(4) 
 
