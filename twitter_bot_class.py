@@ -38,9 +38,11 @@ class TwitterBot:
 
     def logout(self):
         if not self.is_logged_in:
-            raise Exception("You must log in first!") 
+            return 
 
         bot = self.bot
+        bot.get('https://twitter.com/')
+        time.sleep(4)
 
         try:
             bot.find_element_by_xpath("//div[@data-testid='SideNav_AccountSwitcher_Button']").click()

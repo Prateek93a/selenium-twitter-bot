@@ -2092,3 +2092,8 @@ interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
 webdriverClickElement@chrome://marionette/content/interaction.js:182:31
 JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
 JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+1595269800879	Marionette	INFO	Stopped listening on port 46853
+1595269839972	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepzcfY6"
+1595269844606	Marionette	INFO	Listening on port 45689
+1595269844685	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595269961178	Marionette	INFO	Stopped listening on port 45689
