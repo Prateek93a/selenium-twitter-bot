@@ -2097,3 +2097,12 @@ JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.j
 1595269844606	Marionette	INFO	Listening on port 45689
 1595269844685	Marionette	WARN	TLS certificate errors will be ignored for this session
 1595269961178	Marionette	INFO	Stopped listening on port 45689
+1595270034525	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKiCBHe"
+1595270039098	Marionette	INFO	Listening on port 46699
+1595270039154	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595270058632	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1595270162616	Marionette	INFO	Stopped listening on port 46699

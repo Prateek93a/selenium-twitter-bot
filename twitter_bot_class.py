@@ -128,4 +128,5 @@ class TwitterBot:
         time.sleep(4)
         bot.find_element_by_class_name("notranslate").send_keys(keys.Keys.ENTER)
         bot.find_element_by_xpath("//div[@data-testid='tweetButton']").click()
+        time.sleep(6) 
 
