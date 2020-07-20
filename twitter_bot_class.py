@@ -41,7 +41,7 @@ class TwitterBot:
             return 
 
         bot = self.bot
-        bot.get('https://twitter.com/')
+        bot.get('https://twitter.com/home')
         time.sleep(4)
 
         try:
@@ -99,8 +99,11 @@ class TwitterBot:
                 bot.find_element_by_xpath("//div[@data-testid='like']").click()
             except common.exceptions.NoSuchElementException:
                 time.sleep(3)
+                bot.execute_script('window.scrollTo(0,document.body.scrollHeight/1.5)') 
+                time.sleep(3)
                 bot.find_element_by_xpath("//div[@data-testid='like']").click()
 
+            time.sleep(1)
             bot.execute_script('window.scrollTo(0,document.body.scrollHeight/1.5)') 
             time.sleep(5)
 

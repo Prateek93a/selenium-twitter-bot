@@ -2109,3 +2109,52 @@ webdriverClickElement@chrome://marionette/content/interaction.js:182:31
 1595270211813	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDKqNG7"
 1595270216084	Marionette	INFO	Listening on port 38213
 1595270216125	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595270512518	Marionette	INFO	Stopped listening on port 38213
+1595270557884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1W3O4Q"
+1595270562029	Marionette	INFO	Listening on port 39077
+1595270562099	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595270685262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4ax4NT"
+1595270689309	Marionette	INFO	Listening on port 46599
+1595270689375	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+1595270841968	Marionette	INFO	Stopped listening on port 39077
+1595270845747	Marionette	INFO	Stopped listening on port 46599
+1595270863465	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1vPCNS"
+1595270869310	Marionette	INFO	Listening on port 39979
+1595270869380	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1595271048131	Marionette	INFO	Stopped listening on port 39979
+1595271087396	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUkqhY1"
+1595271092171	Marionette	INFO	Listening on port 40439
+1595271092209	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/sharedCore.56a503b4.js, line 1: TypeError: r[e] is undefined
+1595271180107	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1595271201172	Marionette	INFO	Stopped listening on port 40439
