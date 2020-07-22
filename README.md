@@ -9,9 +9,6 @@ Selenium based solution for creating a twitter bot. Selenium is a very powerful 
 - Posting tweets
 - Logging out of your account
 
-## Note:
-Twitter makes use of dynamic classes, hence it's difficult to choose the right attributes for the purpose, and maybe code might not work for all the features in the future( although the attributes I have used will most likely work ). But one can always inspect the Twitter page to look for suitable attributes. 
-
 ## Running project locally:
 
  1. Have `python` environment setup
@@ -34,7 +31,7 @@ All the following tasks are completely automated without any manual user input. 
 
 
 ## Attribution:
-This project is inspired from DevEd([@developedbyed](https://twitter.com/developedbyed?lang=en)) tutorial on Twitter automation using Selenium where he explains how to search for a hashtag and like the related posts. I built on top of it and added new features such as posting tweets, adding likes to tweets on homepage, search for any keyword and like related posts and logging out.
+This project is inspired from DevEd([@developedbyed](https://twitter.com/developedbyed?lang=en)) tutorial on Twitter automation using Selenium where he explains how to search for a hashtag and like the related posts. For selecting the elements on the page, class attribute is used by him. I built on top of it and added new features such as posting tweets, adding likes to tweets on homepage, search for any keyword and like related posts and logging out. Since Twitter makes use of dynamic classes now, hence the class based selection no longer works. So I made use of other reliable attributes for selecting the elements. Hence the code will work inspite of dynamic classes.
 
 ## What's next:
 I will be working on adding feature of finding and following new users. Apart from that I will also add features to perform other tasks on tweets such retweeting them.
