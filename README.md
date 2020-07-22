@@ -21,7 +21,7 @@ Twitter makes use of dynamic classes, hence it's difficult to choose the right a
 
 ## Examples:
 
-All the following tasks are completely automated without any manual user input. The script launches Firefox instance and carrys out the tasks provided. Note that the speed of the gifs was increased to reduce their length.
+All the following tasks are completely automated without any manual user input. The script launches Firefox instance and carrys out the tasks provided.
 #### Posting Tweets
 ![tweet2gif](https://user-images.githubusercontent.com/44807945/87979619-f7b43b80-caef-11ea-8f63-266c8ed9c481.gif)
 
